@@ -1,0 +1,181 @@
+
+html, body{
+    font-size: 100%;
+	background:	#C4C4C4;
+	font-family:'Open Sans', sans-serif;
+}
+p{
+	margin:0;
+	font-size:14px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Glegoo', serif;
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+}
+/*-- header --*/
+input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_info_sub_grid_right a,.panel_bottom li a,.panel-title a,.breadcrumb_dress ul li a,.multi-column-dropdown li a,.footer-copy p a,.w3_footer_grid ul li a,.agileinfo_banner_bottom1_grid_left a,.navbar-default .navbar-nav > li > a,.simpleCart_shelfItem p a,.agile_ecommerce_tab_left h5 a,.w3_hs_bottom ul li a,.team-bottom a{
+	transition:.5s ease-in-out;
+	-webkit-transition:.5s ease-in-out;
+	-moz-transition:.5s ease-in-out;
+	-o-transition:.5s ease-in-out;
+}
+.header {
+    padding: 2em 0 0;
+}
+.w3l_login{
+	float:left;
+}
+.w3l_logo{
+	float:left;
+	margin-left:21em;
+}
+.w3l_logo h1 a{
+	font-size:1.1em;
+	color:#FFFFFF;
+	text-decoration:none;
+	background-color:transparent;
+}
+.w3l_logo h1 a span{
+	display: block;
+    font-size: .3em;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    padding-left: 13em;
+}
+a.act {
+    color: #FFFFFF;
+	
+}
+
+/*-- //header --*/
+/*-- navigation --*/
+.navbar-default .navbar-nav > li > a {
+    color: #212121;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    color: #d8703f;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333 !important;
+}
+.navbar-default {
+    background: #ffffff;
+    border: none;
+}
+.navbar-collapse {
+    padding: 0;
+}
+ul.multi-column-dropdown h6 {
+    font-size: 1.5em;
+    color:#11B8FF;
+    margin: 0 0 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #0052AA;
+    text-transform: capitalize;
+}
+.multi-column-dropdown li {
+    list-style-type: none;
+    margin: 7px 0;
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #0266D0;
+    white-space: normal;
+	font-weight:500 !important;
+	text-decoration:none;
+}
+.multi-column-dropdown li a:hover{
+	color:#212121!important;
+	background:#D5A1F4;
+}
+.multi-column-dropdown li a span {
+    margin-left: 1em;
+    padding: .1em .5em;
+    background:#B3D547;
+    color: #fff;
+}
+.multi-column-dropdown li a i {
+    font-size: 1.1em;
+    font-style: normal;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 3em 0 0;
+    display: block;
+    padding: .4em .5em;
+    background: #11B8FF;
+    text-align: right;
+}
+.dropdown-menu.columns-3 {
+    min-width:300px;
+    padding: 30px 80px;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background: #11B8FF;
+    border: none;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+/*-- agileits --*/
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+}
+.navbar-nav > li > a {
+    padding: 29px 18px 0;
+}
+.navbar-nav > li > a {
+    padding: 20px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color:#FFFFFF;
+	background:#0266D0;
+	font-weight:bold;
+}
+.navbar {
+    margin-bottom: 0;
+	z-index: 100;
+}
+.navigation {
+    margin: 2em 0 0;
+	text-align:left;
+}
+.navbar-nav {
+    float: none;
+}
+.navbar-nav > li:nth-child(1) {
+    margin-left: .01em;
+}
+.dropdown-menu {
+    left: -50%;
+}
+.w3ls_products_pos h4 {
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 1em;
+}
+.w3ls_products_pos h4 i{
+	display: block;
+    margin: .5em 0 0;
+    text-align: left;
+    padding-left: 5em;
+    color: #B3D547;
+}
+

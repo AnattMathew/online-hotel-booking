@@ -1,0 +1,57 @@
+@charset "utf-8";
+@import url("navi.css");
+@import url("forms.css");
+@import url("tables.css");
+@import url("homepage.css");
+@import url("gallery.css");
+@import url("portfolio.css");
+@import url("featured_slide.css");
+
+
+html{overflow-y:scroll;}
+body{margin:0; padding:0; font-size:13px; font-family:Times New Roman, "Georgia", Times, serif; color:#FFFFFF; background-color:#06213F;}
+
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{margin:0; padding:0; list-style-type:none;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:inline-block;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none; color:#55ABDA; background-color:#F9F9F9;}
+
+.fl_left, .imgl{float:left;}
+.fl_right, .imgr{float:right;}
+
+img{margin:0; padding:0; border:none;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #DEDACB; text-align:center;}
+.imgl{margin:0 15px 15px 0; clear:left;}
+.imgr{margin:0 0 15px 15px; clear:right;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{position:relative; margin:0 auto 20px; width:960px; text-align:left;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 15px 0; padding:0; font-size:16px; font-weight:normal; font-style:normal; line-height:normal;}
+.row1{color:#999999; background-color:#06213F;}
+.row1 a{color:#FCFCFC; background-color:#06213F;}
+.row2, .row3, .row4{color:#979797; background-color:#F9F9F9;}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#header, #container, #footer{display:block; width:960px;}
+.rnd{display:block; width:960px; padding:12px 0 0 0; background:url("images/round_top.gif") top left no-repeat;}
+
+/* ----------------------------------------------Header------------------------------------- */
+
+#header{padding:25px 0 0 0;}
+#header h1, #header p, #header ul{margin:0; padding:0; list-style:none; line-height:normal;}
+#header h1{font-size:36px; font-variant:small-caps; font-style:normal;}
+#header .fl_right{display:block; width:360px;}
+#header .fl_right ul{margin-bottom:10px; font-size:11px;}
+#header .fl_right li{display:inline; margin:0 4px 0 0; padding:0 6px 0 0; border-right:1px solid #FCFCFC;}
+#header .fl_right li.last{margin:0; padding:0; border:none;}
+
